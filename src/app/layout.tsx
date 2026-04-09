@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavLinks from "./NavLinks";
 
 export const metadata: Metadata = {
   title: "Saul Studio",
@@ -126,43 +127,7 @@ export default function RootLayout({
                 className="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto lg:ml-10"
                 id="mobile-menu-2"
               >
-                <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-transparent lg:p-0 dark:border-gray-700 dark:bg-gray-800 lg:dark:bg-transparent">
-                  <li>
-                    <a href="/" className="block rounded px-3 py-2 text-blue-700 lg:p-0 dark:text-blue-500" aria-current="page">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      Team
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/blog" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
+                <NavLinks />
               </div>
             </div>
           </nav>
