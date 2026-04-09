@@ -128,7 +128,7 @@ export default function RootLayout({
               >
                 <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-transparent lg:p-0 dark:border-gray-700 dark:bg-gray-800 lg:dark:bg-transparent">
                   <li>
-                    <a href="/" className="block rounded px-3 py-2 text-white bg-primary-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-blue-500 dark:bg-primary-600 lg:dark:bg-transparent" aria-current="page">
+                    <a href="/" className="block rounded px-3 py-2 text-blue-700 lg:p-0 dark:text-blue-500" aria-current="page">
                       Home
                     </a>
                   </li>
