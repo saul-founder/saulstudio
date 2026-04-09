@@ -137,20 +137,6 @@ export default function Home() {
                   </a>
                 </li>
 
-                {/* Mobile language selector */}
-                <li className="lg:hidden">
-                  <div className="mt-2 border-t border-gray-200 pt-2 dark:border-gray-700">
-                    <div className="mb-2 px-3 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                      Language
-                    </div>
-                    <div className="grid grid-cols-2 gap-2 px-3">
-                      <a href="#" className="language-option rounded-lg bg-gray-100 px-3 py-2 text-sm text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600" data-lang="DE">🇩🇪 Deutsch</a>
-                      <a href="#" className="language-option rounded-lg bg-gray-100 px-3 py-2 text-sm text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600" data-lang="EN">🇬🇧 English</a>
-                      <a href="#" className="language-option rounded-lg bg-gray-100 px-3 py-2 text-sm text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600" data-lang="FR">🇫🇷 Français</a>
-                      <a href="#" className="language-option rounded-lg bg-gray-100 px-3 py-2 text-sm text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600" data-lang="ES">🇪🇸 Español</a>
-                    </div>
-                  </div>
-                </li>
               </ul>
             </div>
           </div>
