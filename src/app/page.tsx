@@ -17,7 +17,7 @@ export default function Home() {
             </a>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup" />
+            <img src="/images/women_01.webp" alt="Enterprise-grade software for the Shopify ecosystem" />
           </div>
         </div>
       </section>
