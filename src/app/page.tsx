@@ -349,7 +349,7 @@ export default function Home() {
                     smartemails.app
                   </a>
                   <p className="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-                    53 Shopify notification emails. 30 professional design presets. 26 languages with automatic translation. No code, no templates, no limitations. Change a color, update a text, add a banner — your changes go live instantly across every template.
+                    53 Shopify notification emails. 30 professional design presets. 26 languages with automatic translation. No code, no compromises, no limitations. Change a color, update a text, add a banner — your changes go live instantly across every template.
                   </p>
                 </div>
 
