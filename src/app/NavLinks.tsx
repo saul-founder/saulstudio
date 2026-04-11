@@ -3,13 +3,9 @@
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "#", label: "Services" },
-  { href: "#", label: "About" },
-  { href: "#", label: "Pricing" },
-  { href: "#", label: "Team" },
+  { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
-  { href: "#", label: "Contact" },
+  { href: "/support", label: "Support" },
 ];
 
 const activeClass =
