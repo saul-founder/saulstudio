@@ -25,7 +25,7 @@ export default function Home() {
 
 
 
-      <section className="border-t border-b border-gray-100 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+      <section className="bg-white dark:bg-gray-900">
         <div className="max-w-screen-xl px-6 md:px-10 lg:px-4 py-8 mx-auto sm:py-16 lg:py-24">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
@@ -202,7 +202,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-gray-50 dark:bg-gray-800">
         <div className="gap-8 items-center py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 sm:py-16 lg:px-6">
           <img className="mb-4 w-full lg:mb-0" src="/images/women_02.webp" alt="How we build" />
           <div className="text-gray-500 dark:text-gray-400 sm:text-lg">
@@ -243,7 +243,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="border-t border-b border-gray-100 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+      <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Why Saul Studio?</h2>
@@ -257,106 +257,80 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="max-w-screen-xl px-6 md:px-10 lg:px-4 py-8 mx-auto sm:py-16 lg:py-24">
-          <div className="max-w-screen-sm mx-auto text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-              Our Blog
-            </h2>
-          </div>
 
-          <div className="grid gap-8 mt-12 lg:divide-x lg:divide-gray-200 dark:lg:divide-gray-800 lg:grid-cols-3">
-            <article>
-              <a href="#">
-                <img className="mb-5 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/blog/google-hq.png" alt="blog image" />
-              </a>
-              <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href="#">SEO Basics: Beginner&apos;s Guide to SEO Success</a>
-              </h2>
-              <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-              <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                Read more
-                <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                </svg>
-              </a>
+      {/* Newsletter CTA */}
+      <section className="bg-gray-50 dark:bg-gray-800">
+        <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-md sm:text-center">
+            <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">Stay in the loop</h2>
+            <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Get notified when we ship something new. No spam. No fluff. Just updates from the studio.</p>
+            <form action="#">
+              <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+                <div className="relative w-full">
+                  <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                  <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                    <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                  </div>
+                  <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Enter your email" type="email" id="email" required />
+                </div>
+                <div>
+                  <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-indigo-600 border-indigo-600 sm:rounded-none sm:rounded-r-lg hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Subscribe</button>
+                </div>
+              </div>
+              <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">We care about the protection of your data. <a href="/privacy" className="font-medium text-indigo-600 dark:text-indigo-500 hover:underline">Read our Privacy Policy</a>.</div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+            <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Blog</h2>
+            <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Thoughts on building software, running a studio, and the Shopify ecosystem.</p>
+          </div>
+          <div className="grid gap-8 lg:grid-cols-2">
+            <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                <span className="bg-indigo-100 text-indigo-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-800">
+                  <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clipRule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                  Article
+                </span>
+                <span className="text-sm">Coming soon</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog">Why we built Smart Emails</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">The story behind our first product — why Shopify notification emails deserved better, and what it took to build an editor that handles all 53 of them.</p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-4">
+                  <span className="font-medium dark:text-white">Saul Studio</span>
+                </div>
+                <a href="/blog" className="inline-flex items-center font-medium text-indigo-600 dark:text-indigo-500 hover:underline">
+                  Read more
+                  <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </a>
+              </div>
             </article>
-            <div className="space-y-8 lg:pl-8">
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">How to quickly deploy a static website</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
+            <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                <span className="bg-indigo-100 text-indigo-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-indigo-200 dark:text-indigo-800">
+                  <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clipRule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                  Article
+                </span>
+                <span className="text-sm">Coming soon</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog">How we build software that lasts</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Our principles, our process, and why we believe that shipping right is more important than shipping fast. A look behind the scenes at Saul Studio.</p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-4">
+                  <span className="font-medium dark:text-white">Saul Studio</span>
+                </div>
+                <a href="/blog" className="inline-flex items-center font-medium text-indigo-600 dark:text-indigo-500 hover:underline">
                   Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
+                  <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                 </a>
-              </article>
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">What is SEO? Search Engine Optimization Explained</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                  Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
-                </a>
-              </article>
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Spotify&apos;s Car Thing available to all premium users</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                  Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
-                </a>
-              </article>
-            </div>
-            <div className="space-y-8 lg:pl-8">
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">How to Rank Higher on Google (6 Easy Steps)</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                  Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
-                </a>
-              </article>
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">12 SEO Best Practices That Everyone Should Follow</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                  Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
-                </a>
-              </article>
-              <article>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">How to schedule your Tweets to send later</a>
-                </h2>
-                <p className="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation and some hard work, we moved to our new office.</p>
-                <a href="#" className="inline-flex items-center font-medium text-primary-700 hover:underline dark:text-primary-500">
-                  Read more
-                  <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-                  </svg>
-                </a>
-              </article>
-            </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
