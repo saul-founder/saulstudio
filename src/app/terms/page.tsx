@@ -61,11 +61,19 @@ export default function Terms() {
             <h2>§ 10 Höhere Gewalt</h2>
             <p>Der Anbieter haftet nicht für die Nichterfüllung oder verspätete Erfüllung seiner Verpflichtungen, soweit die Nichterfüllung oder Verspätung auf Umstände zurückzuführen ist, die außerhalb der zumutbaren Kontrolle des Anbieters liegen (höhere Gewalt). Hierzu zählen insbesondere Naturkatastrophen, Pandemien, Kriege, Streiks, behördliche Anordnungen sowie Ausfälle von Telekommunikationsnetzen oder Gateways anderer Betreiber.</p>
 
-            <h2>§ 11 Änderungen der AGB</h2>
+            <h2>§ 11 Links zu Webseiten Dritter</h2>
+            <p>(1) Unsere Software und Webseite können Links zu Webseiten oder Diensten Dritter enthalten, die nicht im Eigentum oder unter der Kontrolle des Anbieters stehen.</p>
+            <p>(2) Der Anbieter hat keine Kontrolle über und übernimmt keine Verantwortung für die Inhalte, Datenschutzrichtlinien oder Praktiken von Webseiten oder Diensten Dritter. Der Kunde erkennt an und stimmt zu, dass der Anbieter weder direkt noch indirekt für Schäden oder Verluste verantwortlich oder haftbar ist, die durch oder im Zusammenhang mit der Nutzung von oder dem Vertrauen auf solche Inhalte, Waren oder Dienste entstehen, die auf oder über solche Webseiten oder Dienste verfügbar sind.</p>
+
+            <h2>§ 12 Hinweis für Verbraucher in der Europäischen Union</h2>
+            <p>(1) Sind Sie Verbraucher mit Wohnsitz in der Europäischen Union, so gelten für Sie die zwingenden Verbraucherschutzvorschriften des Rechts des Mitgliedstaates, in dem Sie Ihren gewöhnlichen Aufenthalt haben, soweit diese für Sie günstiger sind als die Bestimmungen dieser AGB.</p>
+            <p>(2) Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noreferrer">https://ec.europa.eu/consumers/odr/</a>. Wir sind weder bereit noch verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+            <h2>§ 13 Änderungen der AGB</h2>
             <p>(1) Der Anbieter behält sich vor, diese AGB mit Wirkung für die Zukunft zu ändern, soweit die Änderungen für den Kunden zumutbar sind und die Änderungen unter Berücksichtigung der Interessen des Anbieters für den Kunden zumutbar sind.</p>
             <p>(2) Der Anbieter wird den Kunden über Änderungen der AGB mindestens 30 Tage vor deren Inkrafttreten in Textform informieren. Widerspricht der Kunde den Änderungen nicht innerhalb von 30 Tagen nach Zugang der Änderungsmitteilung, gelten die geänderten AGB als angenommen. Der Anbieter wird den Kunden in der Änderungsmitteilung auf die Bedeutung der 30-Tage-Frist und die Rechtsfolgen des Schweigens besonders hinweisen.</p>
 
-            <h2>§ 12 Schlussbestimmungen</h2>
+            <h2>§ 14 Schlussbestimmungen</h2>
             <p>(1) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG).</p>
             <p>(2) Ist der Kunde Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen, ist Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit dem Vertrag Speyer.</p>
             <p>(3) Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, so berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. An die Stelle der unwirksamen Bestimmung tritt eine wirksame Bestimmung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</p>
