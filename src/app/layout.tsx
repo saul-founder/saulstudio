@@ -197,9 +197,9 @@ export default function RootLayout({
               <div className="lg:mx-auto">
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                 <ul className="text-gray-500 dark:text-gray-400">
-                  <li className="mb-4"><a href="#" className="hover:underline">Privacy Policy</a></li>
-                  <li className="mb-4"><a href="#" className="hover:underline">Licensing</a></li>
-                  <li className="mb-4"><a href="#" className="hover:underline">Terms</a></li>
+                  <li className="mb-4"><a href="/impressum" className="hover:underline">Impressum</a></li>
+                  <li className="mb-4"><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
+                  <li className="mb-4"><a href="/terms" className="hover:underline">Terms</a></li>
                 </ul>
               </div>
               <div className="lg:mx-auto">
