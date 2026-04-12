@@ -4,7 +4,7 @@ export default function BlogArticle() {
 
       {/* Blog Article — from Flowbite blog template */}
       <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
-        <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+        <div className="flex justify-between px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl ">
             <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
                 <header className="mb-4 lg:mb-6 not-format">
                     <address className="flex items-center mb-6 not-italic">
@@ -396,7 +396,7 @@ export default function BlogArticle() {
       </main>
 
       <aside aria-label="Related articles" className="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800">
-        <div className="px-4 mx-auto max-w-screen-xl">
+        <div className="px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl">
             <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Related articles</h2>
             <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
                 <article className="max-w-xs">
@@ -452,7 +452,7 @@ export default function BlogArticle() {
       </aside>
 
       <section className="bg-white dark:bg-gray-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-md sm:text-center">
                 <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Sign up for our newsletter</h2>
                 <p className="mx-auto mb-8 max-w-2xl  text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
