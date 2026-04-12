@@ -26,7 +26,7 @@ export default function Home() {
 
 
       <section className="border-t border-b border-gray-100 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:py-24">
+        <div className="max-w-screen-xl px-6 md:px-10 lg:px-4 py-8 mx-auto sm:py-16 lg:py-24">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
               What we make
@@ -203,7 +203,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-white dark:bg-gray-900">
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 sm:py-16 lg:px-6">
+        <div className="gap-8 items-center py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 sm:py-16 lg:px-6">
           <img className="mb-4 w-full lg:mb-0" src="/images/women_02.webp" alt="How we build" />
           <div className="text-gray-500 dark:text-gray-400 sm:text-lg">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">How we build</h2>
@@ -244,7 +244,7 @@ export default function Home() {
         </div>
       </section>
       <section className="border-t border-b border-gray-100 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Why Saul Studio?</h2>
             <p className="mb-4 font-medium text-xl">A promise, not a pitch.</p>
@@ -258,7 +258,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-white dark:bg-gray-900">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:py-24">
+        <div className="max-w-screen-xl px-6 md:px-10 lg:px-4 py-8 mx-auto sm:py-16 lg:py-24">
           <div className="max-w-screen-sm mx-auto text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
               Our Blog
