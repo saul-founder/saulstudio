@@ -1,10 +1,8 @@
 export default function Home() {
   return (
     <>
-
-      {/* Hero — Visual image with heading — from MCP flowbite://blocks/marketing/hero_sections #2 */}
       <section className="bg-white dark:bg-gray-900">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="grid max-w-screen-xl px-6 py-12 mx-auto md:px-10 md:py-20 lg:px-4 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">We build <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-fuchsia-600">enterprise-grade</span> software for the Shopify ecosystem.</h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Precisely engineered. Reliably scalable. For retailers who expect more.</p>
@@ -21,8 +19,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Agency sections from Flowbite Pro agency.html (without hero) */}
 
 
 
@@ -206,8 +202,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* How we build — from MCP flowbite://blocks/marketing/feature_sections "Image with feature list and CTAs" */}
       <section className="bg-white dark:bg-gray-900">
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 sm:py-16 lg:px-6">
           <img className="mb-4 w-full lg:mb-0" src="/images/women_02.webp" alt="How we build" />
@@ -249,8 +243,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Why Saul Studio — from MCP flowbite://blocks/marketing/content_sections "Heading with description" */}
       <section className="border-t border-b border-gray-100 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
@@ -265,8 +257,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Blog — from Flowbite Pro agency.html */}
       <section className="bg-white dark:bg-gray-900">
         <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:py-24">
           <div className="max-w-screen-sm mx-auto text-center">
