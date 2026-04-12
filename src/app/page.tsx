@@ -303,7 +303,7 @@ export default function Home() {
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">The story behind our first product — why Shopify notification emails deserved better, and what it took to build an editor that handles all 53 of them.</p>
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-4">
-                  <span className="font-medium dark:text-white">Saul Studio</span>
+                  <span className="font-medium dark:text-white">Saul Studio.</span>
                 </div>
                 <a href="/blog" className="inline-flex items-center font-medium text-indigo-600 dark:text-indigo-500 hover:underline">
                   Read more
@@ -323,7 +323,7 @@ export default function Home() {
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Our principles, our process, and why we believe that shipping right is more important than shipping fast. A look behind the scenes at Saul Studio.</p>
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-4">
-                  <span className="font-medium dark:text-white">Saul Studio</span>
+                  <span className="font-medium dark:text-white">Saul Studio.</span>
                 </div>
                 <a href="/blog" className="inline-flex items-center font-medium text-indigo-600 dark:text-indigo-500 hover:underline">
                   Read more

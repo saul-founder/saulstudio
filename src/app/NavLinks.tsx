@@ -9,9 +9,9 @@ const links = [
 ];
 
 const activeClass =
-  "block rounded px-3 py-2 text-blue-700 lg:p-0 dark:text-blue-500";
+  "block rounded px-3 py-2 text-indigo-600 lg:p-0 dark:text-indigo-500";
 const normalClass =
-  "block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-blue-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent";
+  "block rounded px-3 py-2 text-gray-700 hover:bg-gray-100 lg:p-0 lg:hover:bg-transparent lg:hover:text-indigo-600 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent";
 
 export default function NavLinks() {
   const pathname = usePathname();
