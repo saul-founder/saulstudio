@@ -3,7 +3,7 @@ export default function Terms() {
     <>
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
-          <div className="format dark:format-invert max-w-none">
+          <div className="prose dark:prose-invert max-w-none">
             <h1>Allgemeine Geschäftsbedingungen</h1>
             <p>Stand: April 2026</p>
 

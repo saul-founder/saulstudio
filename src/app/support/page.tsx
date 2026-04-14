@@ -1,3 +1,5 @@
+import FAQ from "./FAQ";
+
 export default function Support() {
   return (
     <>
@@ -21,55 +23,7 @@ export default function Support() {
         <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <h2 className="mb-6 lg:mb-8 text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Frequently asked questions</h2>
           <div className="mx-auto max-w-screen-md">
-            <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
-              <h2 id="accordion-flush-heading-1">
-                <button type="button" className="flex justify-between items-center py-5 w-full font-medium text-left text-gray-900 bg-gray-50 border-b border-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
-                  <span>Do you take on client work?</span>
-                  <svg data-accordion-icon="" className="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                </button>
-              </h2>
-              <div id="accordion-flush-body-1" className="" aria-labelledby="accordion-flush-heading-1">
-                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-500 dark:text-gray-400">No. We focus entirely on building and maintaining our own software products for the Shopify ecosystem. This allows us to put all of our energy into making them the best they can be.</p>
-                </div>
-              </div>
-
-              <h2 id="accordion-flush-heading-2">
-                <button type="button" className="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-                  <span>How can I reach you?</span>
-                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                </button>
-              </h2>
-              <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
-                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-500 dark:text-gray-400">The fastest way is through the live chat — click the chat icon in the bottom right corner of any page. You can also email us at <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 dark:text-indigo-500 hover:underline">support@saulstudio.app</a>.</p>
-                </div>
-              </div>
-
-              <h2 id="accordion-flush-heading-3">
-                <button type="button" className="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
-                  <span>Where are you based?</span>
-                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                </button>
-              </h2>
-              <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
-                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-500 dark:text-gray-400">Saul Studio is based in Germany. We work remotely and serve merchants worldwide.</p>
-                </div>
-              </div>
-
-              <h2 id="accordion-flush-heading-4">
-                <button type="button" className="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
-                  <span>How do I get support for a specific product?</span>
-                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                </button>
-              </h2>
-              <div id="accordion-flush-body-4" className="hidden" aria-labelledby="accordion-flush-heading-4">
-                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-500 dark:text-gray-400">Visit our <a href="https://help.saulstudio.app" className="font-medium text-indigo-600 dark:text-indigo-500 hover:underline">Help Center</a> for detailed guides and answers to common questions about all of our products. If you can&apos;t find what you need, reach out via chat or email.</p>
-                </div>
-              </div>
-            </div>
+            <FAQ />
           </div>
         </div>
       </section>

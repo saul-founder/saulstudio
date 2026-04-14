@@ -3,7 +3,7 @@ export default function Privacy() {
     <>
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-6 md:px-10 lg:px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
-          <div className="format dark:format-invert max-w-none">
+          <div className="prose dark:prose-invert max-w-none">
             <h1>Datenschutzerklärung</h1>
             <p>Mit dieser Datenschutzerklärung möchten wir Sie über Art, Umfang und Zweck der Verarbeitung von personenbezogenen Daten (im Folgenden auch nur als &quot;Daten&quot; bezeichnet) aufklären. Personenbezogene Daten sind alle Daten, die einen persönlichen Bezug zu Ihnen aufweisen, z. B. Name, Adresse, E-Mail-Adresse oder Ihr Nutzerverhalten. Die Datenschutzerklärung gilt für alle von uns vorgenommene Daten-Verarbeitungsvorgänge sowohl im Rahmen unserer Kerntätigkeit als auch für die von uns vorgehaltenen Online-Medien.</p>
 

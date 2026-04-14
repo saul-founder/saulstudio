@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
-@import "flowbite/src/themes/default";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
 @custom-variant dark (&:where(.dark, .dark *));
-@plugin "flowbite/plugin";
-@plugin "flowbite-typography";
-@source "../node_modules/flowbite";
+@plugin "@tailwindcss/typography";
 
-@theme inline {
-  /* Fix: Flowbite theme sets --leading-none: 1px which breaks Tailwind's leading-none */
-  --leading-none: 1;
-}
-
-.dark .format p > strong {
+.dark .prose p > strong {
   color: #e5e7eb;
 }
 
