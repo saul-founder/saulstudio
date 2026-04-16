@@ -1,11 +1,11 @@
 export default function Privacy() {
   return (
-    <div className="bg-white py-24 sm:py-32 dark:bg-gray-900">
+    <div className="bg-white py-16 sm:py-20 dark:bg-gray-900">
       <div className="mx-auto max-w-3xl px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white">
           Privacy Policy
         </h1>
-        <article className="prose prose-lg prose-indigo mt-10 dark:prose-invert">
+        <article className="prose prose-lg prose-indigo mt-6 prose-h2:mt-10 prose-h2:mb-2 prose-p:mt-2 dark:prose-invert">
           <p>
             The purpose of this privacy policy is to inform you about the nature, scope and purpose of the processing of personal data (hereinafter also referred to simply as &quot;data&quot;). Personal data refers to any data that relates to you personally, such as your name, address, email address or your user behaviour. This privacy policy applies to all data processing operations carried out by us, both in the context of our core business and in relation to the online media we maintain.
           </p>

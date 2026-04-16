@@ -1,11 +1,11 @@
 export default function Terms() {
   return (
-    <div className="bg-white py-24 sm:py-32 dark:bg-gray-900">
+    <div className="bg-white py-16 sm:py-20 dark:bg-gray-900">
       <div className="mx-auto max-w-3xl px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white">
           Terms and Conditions
         </h1>
-        <article className="prose prose-lg prose-indigo mt-10 dark:prose-invert">
+        <article className="prose prose-lg prose-indigo mt-6 prose-h2:mt-10 prose-h2:mb-2 prose-p:mt-2 dark:prose-invert">
           <p>As of: April 2026</p>
 
           <h2>§ 1 Scope and Subject Matter of the Contract</h2>

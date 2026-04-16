@@ -308,9 +308,9 @@ export default function Home() {
                 <div className="rounded-md bg-white/50 p-2 ring-1 ring-gray-200 dark:bg-white/5 dark:ring-white/10">
                   <CalendarDaysIcon aria-hidden="true" className="size-6 text-gray-600 dark:text-white" />
                 </div>
-                <dt className="mt-4 text-base font-semibold text-gray-900 dark:text-white">Weekly articles</dt>
+                <dt className="mt-4 text-base font-semibold text-gray-900 dark:text-white">Only when it matters</dt>
                 <dd className="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                  Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+                  No fixed schedule. We write when there&apos;s something real to tell — a launch, a milestone, or a lesson worth sharing.
                 </dd>
               </div>
               <div className="flex flex-col items-start">
@@ -319,7 +319,7 @@ export default function Home() {
                 </div>
                 <dt className="mt-4 text-base font-semibold text-gray-900 dark:text-white">No spam</dt>
                 <dd className="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                  Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
+                  Your email stays with us. No lists sold, no endless promotions — one click to unsubscribe, any time.
                 </dd>
               </div>
             </dl>
