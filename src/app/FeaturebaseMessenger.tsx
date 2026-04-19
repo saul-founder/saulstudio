@@ -13,9 +13,12 @@ const FeaturebaseMessenger = () => {
       }
     }
 
+    const browserLang = navigator.language?.split('-')[0] || 'en'
+
     win.Featurebase('boot', {
       appId: '69e49717f41fb278b83445b3',
       theme: 'light',
+      language: browserLang,
     })
   }, [])
 
