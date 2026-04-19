@@ -16,7 +16,6 @@ const FeaturebaseMessenger = () => {
     win.Featurebase('boot', {
       appId: '69e49717f41fb278b83445b3',
       theme: 'light',
-      language: 'en',
     })
   }, [])
 
