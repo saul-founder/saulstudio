@@ -1,23 +1,19 @@
 import Link from "next/link";
 
 const navigation = {
-  solutions: [
-    { name: "[Solution 1]", href: "#" },
-    { name: "[Solution 2]", href: "#" },
-    { name: "[Solution 3]", href: "#" },
-    { name: "[Solution 4]", href: "#" },
-    { name: "[Solution 5]", href: "#" },
+  products: [
+    { name: "Smart Emails", href: "https://smartemails.app" },
+    { name: "Shopify App Store", href: "https://apps.shopify.com/smart-emails" },
   ],
-  support: [
-    { name: "[Support 1]", href: "#" },
-    { name: "[Support 2]", href: "#" },
-    { name: "[Support 3]", href: "#" },
+  resources: [
+    { name: "Help Center", href: "https://saulstudio.featurebase.app/en/help" },
+    { name: "Changelog", href: "https://saulstudio.featurebase.app/changelog" },
+    { name: "Roadmap", href: "https://saulstudio.featurebase.app/roadmap" },
   ],
   company: [
-    { name: "[Company 1]", href: "#" },
-    { name: "[Company 2]", href: "#" },
-    { name: "[Company 3]", href: "#" },
-    { name: "[Company 4]", href: "#" },
+    { name: "About", href: "/about" },
+    { name: "Support", href: "/support" },
+    { name: "Blog", href: "/blog" },
   ],
   legal: [
     { name: "Legal Notice", href: "/impressum" },
@@ -90,9 +86,9 @@ export default function SiteFooter() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm/6 font-semibold text-gray-900 dark:text-white">Solutions</h3>
+                <h3 className="text-sm/6 font-semibold text-gray-900 dark:text-white">Products</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
+                  {navigation.products.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300">
                         {item.name}
@@ -102,9 +98,9 @@ export default function SiteFooter() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm/6 font-semibold text-gray-900 dark:text-white">Support</h3>
+                <h3 className="text-sm/6 font-semibold text-gray-900 dark:text-white">Resources</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
+                  {navigation.resources.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm/6 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300">
                         {item.name}
