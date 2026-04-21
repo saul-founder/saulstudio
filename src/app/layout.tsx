@@ -4,6 +4,7 @@ import ThemeProvider from "./ThemeProvider";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
 import FeaturebaseMessenger from "./FeaturebaseMessenger";
+import CookieBanner from "./CookieBanner";
 
 export const metadata: Metadata = {
   title: "Saul Studio",
@@ -22,6 +23,7 @@ export default function RootLayout({
           <SiteFooter />
         </ThemeProvider>
         <FeaturebaseMessenger />
+        <CookieBanner />
       </body>
     </html>
   );

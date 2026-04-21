@@ -142,9 +142,12 @@ export default function SiteFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 dark:border-white/10">
+        <div className="mt-16 flex flex-col gap-2 border-t border-gray-900/10 pt-8 sm:mt-20 sm:flex-row sm:justify-between lg:mt-24 dark:border-white/10">
           <p className="text-sm/6 text-gray-600 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} Saul Studio. All rights reserved. &middot; Images by <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white">Freepik</a>
+            &copy; {new Date().getFullYear()} Saul Studio. All rights reserved.
+          </p>
+          <p className="text-sm/6 text-gray-600 dark:text-gray-400">
+            Images by <a href="https://www.freepik.com/author/wayhomestudio" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white">wayhomestudio</a> on <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white">Freepik</a>
           </p>
         </div>
       </div>
