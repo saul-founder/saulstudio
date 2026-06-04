@@ -158,6 +158,18 @@ export default function Privacy() {
           <p><strong>Bing Ads</strong><br />Service provider: Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA<br />Headquarters in Germany: Microsoft Deutschland GmbH, Walter-Gropius-Straße 5, 80807 München<br />Website: <a href="https://ads.microsoft.com/" target="_blank" rel="noreferrer">https://ads.microsoft.com/</a><br />Privacy Policy: <a href="https://privacy.microsoft.com/de-de/privacystatement" target="_blank" rel="noreferrer">https://privacy.microsoft.com/de-de/privacystatement</a></p>
           <p><strong>Google Ads</strong><br />Service provider: Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<br />Headquarters in Europe: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland<br />Website: <a href="https://ads.google.com/home/" target="_blank" rel="noreferrer">https://ads.google.com/home/</a><br />Privacy Policy: <a href="https://www.google.de/intl/de/policies/privacy" target="_blank" rel="noreferrer">http://www.google.de/intl/de/policies/privacy</a></p>
 
+          <h2>Product and service information by email</h2>
+          <p>If you have installed our app, we may occasionally send you, as an existing customer, emails about material changes, new features and updates to the app you use, as well as important service notices. These emails are purely informational and relate to the product you use; we do not send advertising and do not use tracking pixels or tracking links. We obtain your email address in the course of installing and using the app.</p>
+          <p><strong>Data concerned:</strong></p>
+          <ul>
+            <li>Email address</li>
+            <li>Name of the store or account you use</li>
+          </ul>
+          <p><strong>Purpose of processing:</strong> informing existing customers about functional changes and updates to the app they use.</p>
+          <p><strong>Legal basis:</strong> legitimate interests, Art. 6 Para. 1 lit. f GDPR.</p>
+          <p><strong>Objection and opt-out:</strong> You can object to this processing and unsubscribe at any time, without giving reasons and with effect for the future — via the unsubscribe link in every email or by messaging <a href="mailto:support@saulstudio.app">support@saulstudio.app</a>.</p>
+          <p><strong>Sending service:</strong> We use Crisp to send these emails (see Crisp IM SAS).</p>
+
           <p><strong>Crisp IM SAS</strong><br />Service provider: 2 Boulevard de Launay, 44100 Nantes, France<br />Website: <a href="https://crisp.chat" target="_blank" rel="noreferrer">crisp.chat</a><br />Privacy Policy: <a href="https://crisp.chat/en/privacy/" target="_blank" rel="noreferrer">crisp.chat/en/privacy</a></p>
 
           <h2>Our social media presence</h2>

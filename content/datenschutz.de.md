@@ -196,41 +196,19 @@ Sitz in Europa: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street,
 Internetseite: https://ads.google.com/home/
 Datenschutzerklärung: http://www.google.de/intl/de/policies/privacy
 
-## Newsletter
+## Service- und Produktinformationen per E-Mail
 
-Wir versenden in regelmäßigen Abständen einen Newsletter, um unsere Kunden und Geschäftspartner und Interessenten über unsere Angebote und über hiermit im Zusammenhang stehende Neuigkeiten zu informieren. Sie haben die Möglichkeit, sich auf unserer Internetseite zu unserem Newsletter anmelden und im Rahmen der Anmeldung in den Empfang des Newsletters einzuwilligen. Wenn Sie sich zu unserem Newsletter anmelden, ist die Angabe Ihrer E-Mail-Adresse verpflichtend. Die E-Mail-Adresse speichern wir, um Ihnen den Newsletter zusenden zu können. Sobald eine Anmeldung zu unserem Newsletter erfolgt, erhalten Sie eine Bestätigungs-E-Mail an die bei der Anmeldung hinterlegte E-Mail-Adresse im sog. Double-Opt-In-Verfahren. Diese E-Mail enthält einen Link. Wenn Sie auf diesen Link klicken, bestätigen Sie, dass Sie den Newsletter empfangen möchten. Damit stellen wir sicher, dass Ihre E-Mail-Adresse bei der Anmeldung nicht von einem Dritten missbraucht wurde. Aus demselben Grunde speichern wir das Datum und die Uhrzeit der Anmeldung sowie die bei der Anmeldung Ihnen zugeordnete IP-Adresse. Die vorgenannten Daten geben wir nicht an Dritte weiter.
+Wenn Sie unsere App installiert haben, informieren wir Sie als bestehende Kundin oder bestehender Kunde gelegentlich per E-Mail über wesentliche Änderungen, Erweiterungen und Aktualisierungen der von Ihnen genutzten App sowie über wichtige Service-Hinweise. Es handelt sich ausschließlich um sachliche Informationen zu dem von Ihnen genutzten Produkt; wir versenden hierüber keine Werbung und setzen keine Tracking-Pixel oder Tracking-Links ein. Ihre E-Mail-Adresse erhalten wir im Rahmen der Installation und Nutzung der App.
 
-### Auswertung des Nutzerverhaltens
+Daten, die wir verarbeiten: E-Mail-Adresse sowie die Bezeichnung des von Ihnen genutzten Shops bzw. Kontos.
 
-Sofern Sie hierin eingewilligt haben, werten wir beim Versand des Newsletters Ihr Nutzerverhalten aus. Hierfür sind in unseren Newsletter Tracking-Pixel sowie Tracking-Links enthalten. Hierüber können wir erkennen, ob und wann Sie den Newsletter geöffnet haben und ob und welche Links Sie in dem Newsletter angeklickt haben.
+Zweck: Information bestehender Kunden über funktionale Änderungen und Aktualisierungen der genutzten App.
 
-Zweck: Wir werten den Newsletter wie vorbeschrieben aus, um eine statistische Auswertung des Erfolges oder Misserfolges unseres Newsletters messen zu können.
+Rechtsgrundlage: berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht darin, Sie über für die Nutzung relevante Änderungen und Verbesserungen der App zu informieren.
 
-Rechtsgrundlage: Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 lit. a DSGVO.
+Widerspruch und Abmeldung: Sie können dieser Verarbeitung jederzeit widersprechen und sich von diesen E-Mails abmelden — ohne Angabe von Gründen und mit Wirkung für die Zukunft. Es genügt ein Klick auf den Abmeldelink am Ende jeder E-Mail oder eine formlose Nachricht an support@saulstudio.app. Danach verwenden wir Ihre E-Mail-Adresse hierfür nicht weiter.
 
-Verhinderung: Sie können Ihre Einwilligung in den Empfang des Newsletters jederzeit über die oben angegebenen Möglichkeiten widerrufen.
-
-Löschung: Wir löschen Ihre Daten nach erfolgtem Widerruf.
-
-Betroffene Daten:
-
-- Inhaltsdaten (bspw. Posts, Fotos, Videos)
-- Nutzungsdaten (bspw. Zugriffszeiten, angeklickte Webseiten)
-- Kommunikationsdaten (bspw. Informationen über das genutzte Gerät, IP-Adresse)
-
-Betroffene Personen: Nutzer unserer Internetpräsenz
-
-Verarbeitungszweck: Ausspielen unserer Internetseiten, Gewährleistung des Betriebs unserer Internetseiten
-
-Rechtsgrundlage: Einwilligung, Art. 6 Abs. 1 lit. a DSGVO, berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO
-
-Löschung: Die Löschung der E-Mail-Adresse erfolgt entweder, wenn Sie 1 Monat nach Versand der Bestätigungs-E-Mail im Double-Opt-In-Verfahren den Bestätigungslink nicht angeklickt haben oder unmittelbar nachdem Sie sich von unserem Newsletter abgemeldet haben.
-
-Widerruf: Sie können Ihre Einwilligung in den Empfang des Newsletters jederzeit widerrufen und sich von dem Abonnement des Newsletters abmelden. Wir bieten folgende Möglichkeiten an, über die Sie den Widerruf erklären können:
-
-- Klick auf den in dem Newsletter hierfür vorgehaltenen Link
-- per E-Mail an: newsletter@saulstudio.app
-- durch die im Impressum unserer Internetseite vorgehaltenen Kontaktdaten
+Versand: Für den Versand nutzen wir den Dienst Crisp (siehe Abschnitt Crisp IM SAS).
 
 **Crisp IM SAS**
 Dienstanbieter: 2 Boulevard de Launay, 44100 Nantes, Frankreich
