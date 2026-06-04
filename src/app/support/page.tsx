@@ -23,7 +23,7 @@ const faqs: { question: string; answer: React.ReactNode }[] = [
     answer: (
       <>
         The fastest way is through the live chat — click the chat icon in the bottom right corner of any page. You can also email us at{" "}
-        <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300">
+        <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300">
           support@saulstudio.app
         </a>
         .
@@ -42,7 +42,7 @@ const faqs: { question: string; answer: React.ReactNode }[] = [
         <button
           type="button"
           onClick={openChat}
-          className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+          className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300"
         >
           Help Center
         </button>{" "}
@@ -75,7 +75,7 @@ export default function Support() {
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
               <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl dark:text-white">
-                Have a question? We&apos;re <span className="bg-linear-to-r from-indigo-400 to-fuchsia-600 bg-clip-text text-transparent">here to help</span>.
+                Have a question? We&apos;re <span className="bg-linear-to-r from-indigo-500 to-fuchsia-600 bg-clip-text text-transparent">here to help</span>.
               </h1>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 dark:text-gray-400">
                 Browse our help center or reach out directly — we typically respond within a few hours.

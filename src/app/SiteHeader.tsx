@@ -56,8 +56,8 @@ export default function SiteHeader() {
               href={item.href}
               className={
                 isActive(item.href)
-                  ? "text-sm/6 font-semibold text-indigo-600 dark:text-indigo-400"
-                  : "text-sm/6 font-semibold text-gray-900 hover:text-indigo-600 dark:text-white dark:hover:text-indigo-400"
+                  ? "text-sm/6 font-semibold text-indigo-600 dark:text-indigo-500"
+                  : "text-sm/6 font-semibold text-gray-900 hover:text-indigo-600 dark:text-white dark:hover:text-indigo-500"
               }
               aria-current={isActive(item.href) ? "page" : undefined}
             >
@@ -145,7 +145,7 @@ export default function SiteHeader() {
                     onClick={() => setMobileMenuOpen(false)}
                     className={
                       isActive(item.href)
-                        ? "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-indigo-600 dark:text-indigo-400"
+                        ? "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-indigo-600 dark:text-indigo-500"
                         : "-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-white/5"
                     }
                   >

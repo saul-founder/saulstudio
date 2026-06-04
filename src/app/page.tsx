@@ -44,13 +44,13 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
               <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl dark:text-white">
-                We build <span className="bg-linear-to-r from-indigo-400 to-fuchsia-600 bg-clip-text text-transparent">enterprise-grade</span> software for the Shopify ecosystem.
+                We build <span className="bg-linear-to-r from-indigo-500 to-fuchsia-600 bg-clip-text text-transparent">enterprise-grade</span> software for the Shopify ecosystem.
               </h1>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 dark:text-gray-400">
                 Precisely engineered. Reliably scalable. For retailers who expect more.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <a href="#" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 dark:focus-visible:outline-indigo-500">
+                <a href="#" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-500 dark:focus-visible:outline-indigo-500">
                   Get started
                 </a>
                 <a href="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white">
@@ -101,7 +101,7 @@ export default function Home() {
                     href="https://smartemails.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-x-2 text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+                    className="inline-flex items-center gap-x-2 text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300"
                   >
                     <ArrowTopRightOnSquareIcon aria-hidden="true" className="size-5" />
                     smartemails.app
@@ -127,7 +127,7 @@ export default function Home() {
                     href="https://smartemails.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 dark:focus-visible:outline-indigo-500"
+                    className="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-500 dark:focus-visible:outline-indigo-500"
                   >
                     Smart Emails
                     <ArrowLongRightIcon aria-hidden="true" className="size-5" />
@@ -198,7 +198,7 @@ export default function Home() {
                   {howWeBuildFeatures.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
                       <dt className="font-semibold text-gray-900 dark:text-white">
-                        <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600 dark:text-indigo-400" />
+                        <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600 dark:text-indigo-500" />
                         {feature.name}
                       </dt>
                       <dd className="mt-1">{feature.description}</dd>
@@ -279,7 +279,7 @@ export default function Home() {
               <NewsletterForm />
               <p className="mt-4 text-sm/6 text-gray-600 dark:text-gray-400">
                 We care about your data. Read our{" "}
-                <a href="/privacy" className="font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300">
+                <a href="/privacy" className="font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300">
                   privacy policy
                 </a>
                 .

@@ -30,7 +30,7 @@ export default function CookieBanner() {
           This website uses cookies to provide support features and improve your experience. See our{' '}
           <a
             href="/privacy"
-            className="font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
+            className="font-semibold text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300"
           >
             privacy policy
           </a>

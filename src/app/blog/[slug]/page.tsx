@@ -4,7 +4,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     <div className="bg-white py-24 sm:py-32 dark:bg-gray-900">
       <div className="mx-auto max-w-3xl px-6 lg:px-8">
         <header className="mb-12">
-          <p className="text-sm/6 font-semibold text-indigo-600 dark:text-indigo-400">
+          <p className="text-sm/6 font-semibold text-indigo-600 dark:text-indigo-500">
             [Category placeholder]
           </p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white">
