@@ -6,9 +6,7 @@ const navigation = {
     { name: "Shopify App Store", href: "https://apps.shopify.com/smart-emails" },
   ],
   resources: [
-    { name: "Help Center", href: "https://saulstudio.featurebase.app/en/help" },
-    { name: "Changelog", href: "https://saulstudio.featurebase.app/changelog" },
-    { name: "Roadmap", href: "https://saulstudio.featurebase.app/roadmap" },
+    { name: "Help Center", href: "https://help.saulstudio.app/" },
   ],
   company: [
     { name: "About", href: "/about" },
