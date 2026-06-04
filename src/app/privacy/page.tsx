@@ -158,33 +158,6 @@ export default function Privacy() {
           <p><strong>Bing Ads</strong><br />Service provider: Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA<br />Headquarters in Germany: Microsoft Deutschland GmbH, Walter-Gropius-Straße 5, 80807 München<br />Website: <a href="https://ads.microsoft.com/" target="_blank" rel="noreferrer">https://ads.microsoft.com/</a><br />Privacy Policy: <a href="https://privacy.microsoft.com/de-de/privacystatement" target="_blank" rel="noreferrer">https://privacy.microsoft.com/de-de/privacystatement</a></p>
           <p><strong>Google Ads</strong><br />Service provider: Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<br />Headquarters in Europe: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland<br />Website: <a href="https://ads.google.com/home/" target="_blank" rel="noreferrer">https://ads.google.com/home/</a><br />Privacy Policy: <a href="https://www.google.de/intl/de/policies/privacy" target="_blank" rel="noreferrer">http://www.google.de/intl/de/policies/privacy</a></p>
 
-          <h2>Newsletter</h2>
-          <p>We send out a newsletter at regular intervals to keep our customers, business partners and prospective clients informed about our offers and related news. You can subscribe to our newsletter on our website and, as part of the subscription process, give your consent to receive it. When you subscribe to our newsletter, you must provide your email address. We store your email address so that we can send you the newsletter. As soon as you subscribe to our newsletter, you will receive a confirmation email at the address provided during registration, using the so-called double opt-in procedure. This email contains a link. By clicking on this link, you confirm that you wish to receive the newsletter. This ensures that your email address was not misused by a third party during registration. For the same reason, we store the date and time of registration, as well as the IP address assigned to you at the time of registration. We do not pass on the aforementioned data to third parties.</p>
-
-          <h3>Analysis of user behaviour</h3>
-          <p>Provided you have given your consent, we analyse your user behaviour when sending out the newsletter. To this end, our newsletter contains tracking pixels and tracking links. These allow us to see whether and when you have opened the newsletter, and whether and which links you have clicked on within it.</p>
-          <p><strong>Purpose:</strong> We analyse the newsletter as described above in order to measure its success or failure statistically.</p>
-          <p><strong>Legal basis:</strong> The legal basis for the processing of your data is Art. 6 Para. 1 lit. a GDPR.</p>
-          <p><strong>Opting out:</strong> You can withdraw your consent to receive the newsletter at any time using the options provided above.</p>
-          <p><strong>Deletion:</strong> We will delete your data once you have withdrawn your consent.</p>
-
-          <p><strong>Data concerned:</strong></p>
-          <ul>
-            <li>Content data (e.g. posts, photos, videos)</li>
-            <li>Usage data (e.g. access times, pages visited)</li>
-            <li>Communication data (e.g. information about the device used, IP address)</li>
-          </ul>
-          <p><strong>Data subjects:</strong> Users of our website</p>
-          <p><strong>Purpose of processing:</strong> Displaying our website, ensuring the operation of our website</p>
-          <p><strong>Legal basis:</strong> Consent, Art. 6 Para. 1 lit. a GDPR; legitimate interest, Art. 6 Para. 1 lit. f GDPR</p>
-          <p><strong>Deletion:</strong> Your email address will be deleted either if you have not clicked the confirmation link within one month of the confirmation email being sent as part of the double opt-in process, or immediately after you unsubscribe from our newsletter.</p>
-          <p><strong>Withdrawal:</strong> You may withdraw your consent to receive the newsletter at any time and unsubscribe from the newsletter. We offer the following options for you to withdraw your consent:</p>
-          <ul>
-            <li>Click on the link provided for this purpose in the newsletter</li>
-            <li>by email to: <a href="mailto:newsletter@saulstudio.app">newsletter@saulstudio.app</a></li>
-            <li>using the contact details provided in the legal notice on our website</li>
-          </ul>
-
           <p><strong>Crisp IM SAS</strong><br />Service provider: 2 Boulevard de Launay, 44100 Nantes, France<br />Website: <a href="https://crisp.chat" target="_blank" rel="noreferrer">crisp.chat</a><br />Privacy Policy: <a href="https://crisp.chat/en/privacy/" target="_blank" rel="noreferrer">crisp.chat/en/privacy</a></p>
 
           <h2>Our social media presence</h2>
