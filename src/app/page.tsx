@@ -109,7 +109,7 @@ export default function Home() {
                   Smart Emails
                 </p>
                 <p className="mt-6 text-lg/8 text-gray-700 dark:text-gray-300">
-                  53 Shopify notification emails. 30 professional design presets. 26 languages with automatic translation. No code, no compromises, no limitations. Change a color, update a text, add a banner — your changes go live instantly across every template.
+                  52 Shopify notification emails. 30 professional design presets. 26 languages with automatic translation. No code, no compromises, no limitations. Change a color, update a text, add a banner — your changes go live instantly across every template.
                 </p>
                 <div className="mt-8 flex items-center gap-6 text-gray-500 dark:text-gray-400">
                   <img src="/images/techicons/react-2.svg" alt="React" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
@@ -135,9 +135,9 @@ export default function Home() {
             </div>
             <img
               alt="Smart Emails editor screenshot"
-              src="/images/dark-project-app-screenshot.png"
-              width={2432}
-              height={1442}
+              src="/images/start03.png"
+              width={1909}
+              height={1074}
               className="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228 md:-ml-4 lg:-ml-0 dark:ring-white/10"
             />
           </div>
@@ -170,9 +170,9 @@ export default function Home() {
             <div className="flex items-start justify-end lg:order-first">
               <img
                 alt="Smart Emails editor screenshot"
-                src="/images/dark-project-app-screenshot.png"
-                width={2432}
-                height={1442}
+                src="/images/start03.png"
+                width={1909}
+                height={1074}
                 className="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228 dark:ring-white/10"
               />
             </div>
