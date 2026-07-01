@@ -1,3 +1,8 @@
+export const dynamicParams = false;
+export function generateStaticParams() {
+  return [{ slug: "coming-soon" }];
+}
+
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   return (
