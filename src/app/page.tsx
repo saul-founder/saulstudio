@@ -116,8 +116,6 @@ export default function Home() {
                   <img src="/images/techicons/typescript-2.svg" alt="TypeScript" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/remix-3.svg" alt="Remix" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/shopify-2.svg" alt="Shopify" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
-                  <img src="/images/techicons/supabase-2.svg" alt="Supabase" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
-                  <img src="/images/techicons/vercel-3.svg" alt="Vercel" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/deepl.svg" alt="DeepL" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                 </div>
                 <div className="mt-10">
@@ -161,8 +159,6 @@ export default function Home() {
                   <img src="/images/techicons/typescript-2.svg" alt="TypeScript" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/remix-3.svg" alt="Remix" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/shopify-2.svg" alt="Shopify" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
-                  <img src="/images/techicons/supabase-2.svg" alt="Supabase" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
-                  <img src="/images/techicons/vercel-3.svg" alt="Vercel" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                   <img src="/images/techicons/deepl.svg" alt="DeepL" className="h-6 w-6 brightness-0 opacity-50 dark:opacity-100 dark:invert" />
                 </div>
               </div>

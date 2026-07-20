@@ -114,7 +114,7 @@ export default function Privacy() {
           <p><strong>Purpose of processing:</strong> Displaying our website, ensuring the operation of our website</p>
           <p><strong>Legal basis:</strong> Legitimate interest, Art. 6 Para. 1 lit. f GDPR</p>
           <p><strong>The web hosting provider we use:</strong></p>
-          <p><strong>Vercel</strong><br />Service provider: Vercel Inc.<br />Website: <a href="https://vercel.com" target="_blank" rel="noreferrer">vercel.com</a><br />Privacy Policy: <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noreferrer">vercel.com/legal/privacy-policy</a></p>
+          <p><strong>Cloudflare</strong><br />Service provider: Cloudflare, Inc.<br />Website: <a href="https://cloudflare.com" target="_blank" rel="noreferrer">cloudflare.com</a><br />Privacy Policy: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noreferrer">cloudflare.com/privacypolicy</a></p>
 
           <h2>Content Delivery Network</h2>
           <p>We use a Content Delivery Network (CDN) to deliver our websites. A CDN is a network of servers distributed across different regions and connected via the internet. The CDN provides scalable storage and delivery capacities. This optimises the loading times of our websites and ensures optimal data throughput even during periods of high traffic. User requests to our websites are routed via the CDN&apos;s servers. Statistics are compiled from these data streams. This serves, on the one hand, to detect potential threats to our websites from malware at an early stage and, on the other hand, to continuously improve our service and make our websites more user-friendly for you as a user.</p>

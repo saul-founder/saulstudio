@@ -125,10 +125,10 @@ Rechtsgrundlage: Berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO
 
 **Von uns beauftragter Webhoster:**
 
-**Vercel**
-Dienstanbieter: Vercel Inc.
-Internetseite: vercel.com
-Datenschutzerklärung: vercel.com/legal/privacy-policy
+**Cloudflare**
+Dienstanbieter: Cloudflare, Inc.
+Internetseite: cloudflare.com
+Datenschutzerklärung: cloudflare.com/privacypolicy/
 
 ## Content-Delivery-Network
 
