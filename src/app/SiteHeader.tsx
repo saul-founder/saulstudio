@@ -17,7 +17,7 @@ import { Bars3Icon, GlobeAltIcon, MoonIcon, SunIcon, XMarkIcon } from "@heroicon
 const navigation = [
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
-  { href: "/support", label: "Support" },
+  { href: "/support", label: "Contact" },
 ];
 
 const languages = [

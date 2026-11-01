@@ -3,16 +3,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
-declare global {
-  interface Window {
-    $crisp?: { push: (args: unknown[]) => void };
-  }
-}
-
-function openChat() {
-  window.$crisp?.push(["do", "chat:open"]);
-}
-
 const faqs: { question: string; answer: React.ReactNode }[] = [
   {
     question: "Do you take on client work?",
@@ -22,7 +12,7 @@ const faqs: { question: string; answer: React.ReactNode }[] = [
     question: "How can I reach you?",
     answer: (
       <>
-        The fastest way is through the live chat — click the chat icon in the bottom right corner of any page. You can also email us at{" "}
+        Email us at{" "}
         <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300">
           support@saulstudio.app
         </a>
@@ -38,15 +28,18 @@ const faqs: { question: string; answer: React.ReactNode }[] = [
     question: "How do I get support for a specific product?",
     answer: (
       <>
-        Visit our{" "}
-        <button
-          type="button"
-          onClick={openChat}
+        For Smart Emails, visit the{" "}
+        <a
+          href="https://support.saulstudio.app/hc/smart-emails"
           className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300"
         >
-          Help Center
-        </button>{" "}
-        for detailed guides and answers to common questions about all of our products. If you can&apos;t find what you need, reach out via chat or email.
+          Smart Emails Help Center
+        </a>{" "}
+        for guides and answers to common questions. For other enquiries, email us at{" "}
+        <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300">
+          support@saulstudio.app
+        </a>
+        .
       </>
     ),
   },
@@ -78,7 +71,11 @@ export default function Support() {
                 Have a question? We&apos;re <span className="bg-linear-to-r from-indigo-500 to-fuchsia-600 bg-clip-text text-transparent">here to help</span>.
               </h1>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 dark:text-gray-400">
-                Browse our help center or reach out directly — we typically respond within a few hours.
+                Email us at{" "}
+                <a href="mailto:support@saulstudio.app" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-300">
+                  support@saulstudio.app
+                </a>
+                .
               </p>
             </div>
             <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">

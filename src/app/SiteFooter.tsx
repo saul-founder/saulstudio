@@ -6,11 +6,11 @@ const navigation = {
     { name: "Shopify App Store", href: "https://apps.shopify.com/smart-emails" },
   ],
   resources: [
-    { name: "Help Center", href: "https://help.saulstudio.app/" },
+    { name: "Smart Emails Help Center", href: "https://support.saulstudio.app/hc/smart-emails" },
   ],
   company: [
     { name: "About", href: "/about" },
-    { name: "Support", href: "/support" },
+    { name: "Contact", href: "/support" },
     { name: "Blog", href: "/blog" },
   ],
   legal: [

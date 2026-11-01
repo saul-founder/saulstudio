@@ -208,13 +208,6 @@ Rechtsgrundlage: berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO. Unser berec
 
 Widerspruch und Abmeldung: Sie können dieser Verarbeitung jederzeit widersprechen und sich von diesen E-Mails abmelden — ohne Angabe von Gründen und mit Wirkung für die Zukunft. Es genügt ein Klick auf den Abmeldelink am Ende jeder E-Mail oder eine formlose Nachricht an support@saulstudio.app. Danach verwenden wir Ihre E-Mail-Adresse hierfür nicht weiter.
 
-Versand: Für den Versand nutzen wir den Dienst Crisp (siehe Abschnitt Crisp IM SAS).
-
-**Crisp IM SAS**
-Dienstanbieter: 2 Boulevard de Launay, 44100 Nantes, Frankreich
-Internetseite: crisp.chat
-Datenschutzerklärung: crisp.chat/en/privacy
-
 ## Unsere Onlinepräsenzen bei sozialen Netzwerken
 
 Wir betreiben Onlinepräsenzen innerhalb der nachfolgend aufgelisteten sozialen Netzwerke. Besuchen Sie eine dieser Präsenzen, werden durch den jeweiligen Anbieter die unten näher aufgeführten Daten erhoben und verarbeitet. In der Regel werden diese Daten zur Werbe- und Marktforschungszwecke erhoben und hiermit Nutzungsprofile angelegt. In den Nutzungsprofilen können Daten unabhängig des von Ihnen verwendeten Gerätes gespeichert werden. Dies ist insbesondere dann der Fall, wenn Sie Mitglied der jeweiligen Plattform und bei dieser eingeloggt sind. Die Nutzungsprofile können von den Anbietern dazu verwendet werden, um Ihnen interessenbezogene Werbung auszuspielen. Gegen die Erstellung von Nutzerprofilen steht Ihnen ein Widerrufsrecht zu. Um dieses auszuüben, müssen Sie sich an den jeweiligen Anbieter wenden.
@@ -258,29 +251,6 @@ Dienstanbieter: Reddit Inc., 520 3rd Street, San Francisco, CA 94107, USA
 Sitz in der EU: Reddit Ireland Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland
 Internetseite: https://www.redditinc.com/
 Datenschutzerklärung: https://www.redditinc.com/policies/privacy-policy
-
-## Chat-Dienste
-
-Wir kommunizieren über Online-Chats und/oder Chatbots (nachfolgend als Chat-Dienste bezeichnet). Unter einem Online-Chat versteht man den Austausch von Text-Nachrichten über das Internet in Echtzeit. Chat-Bots sind Computer-Programme, die in der Regel auf Internetseiten eingesetzt werden, um Nutzerfragen automatisiert zu beantworten oder Benachrichtigungen an Nutzer auszuspielen.
-
-Sofern Sie unsere Chat-Dienste nutzen, erheben wir Ihre Zugriffs-Daten. Hierzu gehören insbesondere die IP-Adresse des anfragenden Geräts, das Datum und die Uhrzeit der Anfrage sowie Ihre Identifikationsnummer. Ferner speichern wir den Inhalt der über die Chat-Dienste geführte Kommunikation. Schließlich protokollieren wir Ihre Registrierung und Ihre Einwilligungserklärung. Diese Daten nutzen wir, um mit Ihnen über unsere Chat-Dienste kommunizieren zu können, Sie persönlich anzusprechen, um Ihre Anfragen zu beantworten sowie etwaige angeforderte Inhalte zu übermitteln.
-
-Der oder die unten genannte/n Diensteanbieter hat/haben die Möglichkeit, auf die Metadaten der Kommunikation zuzugreifen. Hierzu gehören Zeit und (je nach Einstellung) Ort der Kommunikation sowie das von Ihnen verwendete Gerät sowie die Information wer mit wem kommuniziert hat. Der Zugriff auf die Metadaten durch den Diensteanbieter erfolgt in der Regel um den Dienst zu optimieren oder aus Sicherheitsgründen. Daneben kann der Zugriff durch den Diensteanbieter aber auch erfolgen, um die Daten zu Marketingzwecken einzusetzen. Näheres hierzu erfahren Sie in der Datenschutzerklärung des Diensteanbieters, die wir nachfolgend verlinkt haben.
-
-Wir möchten Sie darauf hinweisen, dass je nach Sitzland des unten genannten Anbieters die über dessen Plattform erfassten Daten außerhalb des Raumes der Europäischen Union übertragen und verarbeitet werden können. Es besteht in diesem Fall das Risiko, dass das von der DSGVO vorgeschriebene Datenschutzniveau nicht eingehalten und die Durchsetzung Ihrer Rechte nicht oder nur erschwert erfolgen kann.
-
-Betroffene Daten:
-
-- Bestands- und Kontaktdaten (bspw. Name, Telefonnummer, E-Mail-Adresse)
-- Inhaltsdaten (bspw. Texteingaben)
-- Nutzungsdaten (bspw. Zugriffszeiten, Interesse an Inhalten)
-- Kommunikationsdaten (bspw. Informationen über das genutzte Gerät, IP-Adresse)
-
-Verarbeitungszweck: Kommunikation und Marketing
-
-Rechtsgrundlage: Sofern wir Sie vor dem Einsatz des jeweiligen Chat-Dienstes um Ihre Einwilligung gebeten haben, liegt hierin die Rechtsgrundlage, Art. 6 Abs. 1 lit. a DSGVO. Insofern stellen wir klar, dass wir die Ihre Kontaktdaten ohne Ihre Einwilligung nicht erstmalig an den Diensteanbieter übermitteln. Sofern wir mit Ihnen im Rahmen einer Vertragsanbahnung oder im Rahmen eines bestehenden vertraglichen Verhältnisses über einen der nachfolgenden genannten Dienste kommunizieren, besteht die Rechtsgrundlage in der Erfüllung oder Vorbereitung des Vertrages, Art. 6 Abs. 1 lit. b DSGVO. Im Übrigen berufen wir uns auf unsere berechtigten Interessen an einer schnellen und effizienten Kommunikation und Erfüllung der Bedürfnisse unser Kommunikationspartner an der Kommunikation der nachfolgend genannten Dienste, Art. 6 Abs. 1 lit. f DSGVO.
-
-Widerspruchsmöglichkeiten: Die uns zur Nutzung des nachfolgenden genannten Dienstes erteilte Einwilligung können Sie jederzeit widerrufen. Der Verarbeitung Ihrer Daten über die von uns genutzten Chat-Dienst können Sie zudem jederzeit widersprechen.
 
 ## Sicherheitsmaßnahmen
 
